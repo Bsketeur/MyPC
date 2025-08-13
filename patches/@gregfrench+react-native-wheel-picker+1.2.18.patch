@@ -1,0 +1,19 @@
+diff --git a/node_modules/@gregfrench/react-native-wheel-picker/android/build.gradle b/node_modules/@gregfrench/react-native-wheel-picker/android/build.gradle
+index dfcfce0..c3dd53e 100644
+--- a/node_modules/@gregfrench/react-native-wheel-picker/android/build.gradle
++++ b/node_modules/@gregfrench/react-native-wheel-picker/android/build.gradle
+@@ -1,11 +1,11 @@
+ apply plugin: 'com.android.library'
+ 
+ android {
+-    compileSdkVersion 28
+-    buildToolsVersion "28.0.3"
++    compileSdkVersion 33
++    // buildToolsVersion "28.0.3"  <-- Supprimez ou commentez cette ligne
+     defaultConfig {
+         minSdkVersion rootProject.hasProperty('minSdkVersion') ? rootProject.minSdkVersion : 16
+-        targetSdkVersion 28
++        targetSdkVersion 33  // Passage de 28 à 33
+         versionCode 1
+         versionName "1.0"
+         ndk {
