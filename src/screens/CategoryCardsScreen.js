@@ -382,12 +382,12 @@ const styles = StyleSheet.create({
     shadowOpacity: 0.3,
     shadowRadius: 5,
     elevation: 5,
-    width: '50%',
+    width: '60%',
     alignSelf: 'center', // Centrer le bouton
   },
   importButtonText: {
     color: '#181818',
-    fontSize: 10,
+    fontSize: 12,
     letterSpacing: 0.3,
   },
   flatList: {
