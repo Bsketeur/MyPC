@@ -213,7 +213,7 @@ const CategoryCardsScreen = ({ route }) => {
             />
           )}
 
-          <TouchableOpacity
+          {/* <TouchableOpacity
             style={styles.importButton}
             onPress={handleImportFile}
             disabled={isImporting}
@@ -226,7 +226,7 @@ const CategoryCardsScreen = ({ route }) => {
                 <Text style={styles.importButtonText}>Importer des cartes</Text>
               </>
             )}
-          </TouchableOpacity>
+          </TouchableOpacity> */}
         </View>
       </SafeAreaView>
     </ImageBackground>
