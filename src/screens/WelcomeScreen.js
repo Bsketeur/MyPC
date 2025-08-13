@@ -79,7 +79,7 @@ const styles = StyleSheet.create({
     borderRadius: 12,
     alignItems: 'center',
     marginTop: 10,
-    width: width * 0.1,       // bouton plus étroit (10% de la largeur)
+    width: width * 0.2,       // bouton plus étroit (20% de la largeur)
   },
   buttonText: {
     color: '#181818',
