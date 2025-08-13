@@ -387,13 +387,13 @@ const styles = StyleSheet.create({
   },
   importButtonText: {
     color: '#181818',
-    fontSize: 16,
+    fontSize: 12,
     fontWeight: 'bold',
     letterSpacing: 0.5,
   },
   flatList: {
     marginTop: 10,
-    maxHeight: height * 0.70, // limite la hauteur de la liste pour ne pas tout prendre
+    maxHeight: height * 0.60, // limite la hauteur de la liste pour ne pas tout prendre
   },
   scrollWeb: {
     scrollbarWidth: 'none',      // Firefox
