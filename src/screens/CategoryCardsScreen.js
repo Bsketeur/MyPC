@@ -387,9 +387,8 @@ const styles = StyleSheet.create({
   },
   importButtonText: {
     color: '#181818',
-    fontSize: 12,
-    fontWeight: 'bold',
-    letterSpacing: 0.5,
+    fontSize: 10,
+    letterSpacing: 0.3,
   },
   flatList: {
     marginTop: 10,
